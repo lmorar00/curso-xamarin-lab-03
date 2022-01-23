@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MobileApp.Views;
+using System;
 using Xamarin.Forms;
 
 namespace MobileApp
@@ -7,7 +8,7 @@ namespace MobileApp
 	{
 		public App()
 		{
-			MainPage = new ContentPage { Content = new Label { Text = "Hello, World!", VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center } };
+			MainPage = new ToDoPage();
 		}
 	}
 }
